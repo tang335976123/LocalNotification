@@ -1,0 +1,22 @@
+{
+  "name": "LocalNotification",
+  "version": "0.1.0",
+  "summary": "A short description of LocalNotification.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/唐基林/LocalNotification",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "唐基林": "857258218@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/唐基林/LocalNotification.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LocalNotification/Classes/**/*"
+}

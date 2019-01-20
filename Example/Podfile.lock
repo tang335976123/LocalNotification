@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LocalNotification (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LocalNotification (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LocalNotification:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LocalNotification: 2cb457e95f6272c26b6f4a011e79bdd6ae24f7f9
+
+PODFILE CHECKSUM: e47de24a697bf6d065eff953b20657a6ca2598a3
+
+COCOAPODS: 1.5.3
