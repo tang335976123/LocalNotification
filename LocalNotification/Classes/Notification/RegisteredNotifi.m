@@ -88,7 +88,11 @@
     
     local.alertBody = alertBody;
     
-    local.alertTitle = alerttitel;
+    if (@available(iOS 8.2, *)) {
+        local.alertTitle = alerttitel;
+    } else {
+        // Fallback on earlier versions
+    }
     
 //    local.alertAction = @"XXXXX";
     local.alertAction = alertAction;
@@ -96,8 +100,8 @@
 //    local.hasAction = YES;
     local.hasAction = hasAction;
     
-//    local.soundName = UILocalNotificationDefaultSoundName;
-    local.soundName = sendName;
+    local.soundName = UILocalNotificationDefaultSoundName;
+//    local.soundName = sendName;
 
     local.applicationIconBadgeNumber = badgeNumber;
     
@@ -120,9 +124,7 @@
 
 
 
-- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
-    NSLog(@"sendmesage-->>%@",notification.alertBody);
-}
+
 
 
 @end

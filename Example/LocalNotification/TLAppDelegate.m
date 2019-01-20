@@ -7,13 +7,21 @@
 //
 
 #import "TLAppDelegate.h"
-
+#import "RegisteredNotifi.h"
 @implementation TLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    [RegisteredNotifi initLauchOptionsWithOptions:launchOptions];
+    [RegisteredNotifi registeredNotificationapplication:application];
+
+
     return YES;
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
+    NSLog(@"sendmesage-->>%@",notification.alertBody);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

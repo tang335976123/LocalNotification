@@ -28,6 +28,8 @@
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		B3121C2621F41F4A0062BCFF /* RegisteredNotifi.h in Headers */ = {isa = PBXBuildFile; fileRef = B3121C2421F41F4A0062BCFF /* RegisteredNotifi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3121C2721F41F4A0062BCFF /* RegisteredNotifi.m in Sources */ = {isa = PBXBuildFile; fileRef = B3121C2521F41F4A0062BCFF /* RegisteredNotifi.m */; };
+		B3121C2821F427020062BCFF /* RegisteredNotifi.h in Headers */ = {isa = PBXBuildFile; fileRef = B3121C2421F41F4A0062BCFF /* RegisteredNotifi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3121C2921F429550062BCFF /* RegisteredNotifi.m in Sources */ = {isa = PBXBuildFile; fileRef = B3121C2521F41F4A0062BCFF /* RegisteredNotifi.m */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B81B717665A81B34B402E3D2E410AB8C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEBE5A97B6550836F0D3B06903C2780 /* ReplaceMe.m */; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -396,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83146BF8CF94F9F87D3E37E023BCFEBD /* LocalNotification-umbrella.h in Headers */,
+				B3121C2821F427020062BCFF /* RegisteredNotifi.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +559,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3121C2921F429550062BCFF /* RegisteredNotifi.m in Sources */,
 				F94289A86F482D5CC4A0A5A5219428FA /* LocalNotification-dummy.m in Sources */,
 				B81B717665A81B34B402E3D2E410AB8C /* ReplaceMe.m in Sources */,
 			);
