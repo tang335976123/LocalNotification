@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'TLNotification'
+  s.name             = 'LocalNotification'
   s.version          = '1.0.1'
   s.summary          = '本地通知封装'
 
