@@ -26,6 +26,15 @@ pod 'LocalNotification'
 
 ## License
 
+### 使用方法
+ [RegisteredNotifi initLauchOptionsWithOptions:launchOptions];              /* 清除角标，角标统计*/
+ [RegisteredNotifi registeredNotificationapplication:application];               /*获取弹框，首先要在- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+这个方法中 注册一个通知*/
+
+
+/*这是要发送通知的内容设置 */
+[RegisteredNotifi initCustomNOtifcationalertBody:@"hello1234567" alerttitel:@"通知来了" alertAction:@"xxxxx" hasAction:YES soundName:UILocalNotificationDefaultSoundName applicationIconBadgeNumber:10 category:@"categorybiaoji" userInfoDic:@{@"name" : @"女dsfsd", @"QQ":@"110",@"sex" : @"女",@"age" : @"18"} logimage:@" "];
+
 LocalNotification is available under the MIT license. See the LICENSE file for more info.
 
 ### 欢迎各位大佬指导
